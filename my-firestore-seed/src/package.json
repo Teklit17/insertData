@@ -1,0 +1,19 @@
+{
+  "name": "insertdata",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "seed": "ts-node index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "firebase": "^12.8.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "ts-node": "^10.0.0"
+  }
+}
