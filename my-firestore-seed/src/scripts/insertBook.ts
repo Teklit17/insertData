@@ -5,6 +5,7 @@ import { db } from "../firebase";
 import { psalmsBookContent } from "../data/oldTestament/psalms";
 import { genesisBookContent } from "../data/oldTestament/genesis";
 import { exodusStoryDivision } from "../data/oldTestament/Exodus";
+import { matthewBookContent } from "../data/newTestament/matthew";
 // later you can import genesis, exodus, matthew, etc.
 
 export async function insertBook(bookContent: any) {
@@ -20,5 +21,5 @@ export async function insertBook(bookContent: any) {
 
 // For now, insert Psalms only
 export async function insertGenesis() {
-  await insertBook(exodusStoryDivision);
+  await insertBook(matthewBookContent);
 }
