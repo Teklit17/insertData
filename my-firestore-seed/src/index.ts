@@ -3,10 +3,12 @@ import { insertBook } from "./scripts/insertBook";
 import { genesisBookContent } from "./data/oldTestament/genesis";
 import { exodusStoryDivision } from "./data/oldTestament/Exodus";
 import { matthewBookContent } from "./data/newTestament/matthew";
-
+import { firstCorinthiansStoryDivision } from "./data/newTestament/1_corinthians";
+import { romansStoryDivision } from "./data/newTestament/romans";
 async function run() {
   await login(); // 1. Must login first
-  await insertBook(matthewBookContent); // 2. Then write
+  await insertBook(firstCorinthiansStoryDivision); // 2. Then write
+  await insertBook(romansStoryDivision);
 }
 
 run();
