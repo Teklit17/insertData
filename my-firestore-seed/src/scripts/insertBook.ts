@@ -8,6 +8,9 @@ import { exodusStoryDivision } from "../data/oldTestament/Exodus";
 import { matthewBookContent } from "../data/newTestament/matthew";
 import { firstCorinthiansStoryDivision } from "../data/newTestament/1_corinthians";
 import { romansStoryDivision } from "../data/newTestament/romans";
+import { markStoryDivision } from "../data/newTestament/mark";
+import { lukeStoryDivision } from "../data/newTestament/luke";
+
 // later you can import genesis, exodus, matthew, etc.
 
 export async function insertBook(bookContent: any) {
@@ -23,6 +26,10 @@ export async function insertBook(bookContent: any) {
 
 // For now, insert Psalms only
 export async function insertGenesis() {
+  await insertBook(markStoryDivision);
   await insertBook(firstCorinthiansStoryDivision);
   await insertBook(romansStoryDivision);
+  await insertBook(lukeStoryDivision);
+  await insertBook(romansStoryDivision);
+  await insertBook(matthewBookContent);
 }
