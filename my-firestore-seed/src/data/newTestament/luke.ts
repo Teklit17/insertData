@@ -525,7 +525,7 @@ export const lukeStoryDivision = {
         "For the Son of man is come to seek and to save that which was lost.",
 
       verse_ti:
-        "ወዲ ሰብ ድማ ንዝጠፍአ ክደሊን ክድሕንን መጺኡ።የሱስ ድማ፡ ወዲ ሰብ ንጥፉእ ኪደልን ኬድሕንን እዩ ዝመጸ እሞ፡ ንስኻ ኸኣ ወዲ ኣብርሃም ስለ ዝዀንካ፡ ሎሚ ነዛ ቤት ምድሓን ኰነላ፡ በሎ።",
+        "የሱስ ድማ፡ ወዲ ሰብ ንጥፉእ ኪደልን ኬድሕንን እዩ ዝመጸ እሞ፡ ንስኻ ኸኣ ወዲ ኣብርሃም ስለ ዝዀንካ፡ ሎሚ ነዛ ቤት ምድሓን ኰነላ፡ በሎ።",
 
       verse_number: "19:10",
 
@@ -649,8 +649,7 @@ export const lukeStoryDivision = {
       verse_en:
         "Heaven and earth shall pass away: but my words shall not pass away.",
 
-      verse_ti:
-        "እምብኣርሲ፡ ሾብዓቲኦም ኣእትዮምዋ ነይሮም እዮም እሞ እታ ሰበይቲ እቲኣ ብትንሳኤስ ሰበይቲ መኖም ክትከውን እያ፧",
+      verse_ti: "ሰማይን ምድርን ኪሐልፍ፡ ቃለይ ግና ኣይኪሐልፍን እዩ።",
 
       verse_number: "21:33",
 

@@ -5,6 +5,7 @@ import { db } from "../firebase";
 import { psalmsBookContent } from "../data/oldTestament/psalms";
 import { genesisBookContent } from "../data/oldTestament/genesis";
 import { exodusStoryDivision } from "../data/oldTestament/Exodus";
+import { haggaiStoryDivision } from "../data/oldTestament/haggai";
 import { matthewBookContent } from "../data/newTestament/matthew";
 import { firstCorinthiansStoryDivision } from "../data/newTestament/1_corinthians";
 import { romansStoryDivision } from "../data/newTestament/romans";
@@ -26,10 +27,11 @@ export async function insertBook(bookContent: any) {
 
 // For now, insert Psalms only
 export async function insertGenesis() {
-  await insertBook(markStoryDivision);
-  await insertBook(firstCorinthiansStoryDivision);
-  await insertBook(romansStoryDivision);
-  await insertBook(lukeStoryDivision);
-  await insertBook(romansStoryDivision);
-  await insertBook(matthewBookContent);
+  // await insertBook(markStoryDivision);
+  // await insertBook(firstCorinthiansStoryDivision);
+  // await insertBook(romansStoryDivision);
+  //await insertBook(lukeStoryDivision);
+  // await insertBook(romansStoryDivision);
+  //await insertBook(matthewBookContent);
+  await insertBook(haggaiStoryDivision);
 }

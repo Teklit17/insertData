@@ -7,14 +7,14 @@ import { firstCorinthiansStoryDivision } from "./data/newTestament/1_corinthians
 import { romansStoryDivision } from "./data/newTestament/romans";
 import { markStoryDivision } from "./data/newTestament/mark";
 import { lukeStoryDivision } from "./data/newTestament/luke";
-
+import { haggaiStoryDivision } from "./data/oldTestament/haggai";
 async function run() {
   await login(); // 1. Must login first
-  await insertBook(markStoryDivision);
-  await insertBook(matthewBookContent);
-  await insertBook(firstCorinthiansStoryDivision);
-  await insertBook(romansStoryDivision);
-  await insertBook(lukeStoryDivision);
+  //await insertBook(markStoryDivision);
+  //await insertBook(matthewBookContent);
+  //await insertBook(firstCorinthiansStoryDivision);
+  //await insertBook(romansStoryDivision);
+  await insertBook(haggaiStoryDivision);
 
   // await insertBook(firstCorinthiansStoryDivision); // 2. Then write
   // await insertBook(romansStoryDivision);
