@@ -16,12 +16,12 @@ async function run() {
   await login(); // 1. Must login first
   //await insertBook(markStoryDivision);
   //await insertBook(matthewBookContent);
-  //await insertBook(haggaiStoryDivision);
+  await insertBook(haggaiStoryDivision);
   //  await insertBook(johnStoryDivision);
 
-  await insertBook(actsStoryDivision);
+  //  await insertBook(actsStoryDivision);
 
-  //await insertBook(firstCorinthiansStoryDivision);
+  await insertBook(firstCorinthiansStoryDivision);
   //await insertBook(romansStoryDivision);
 
   // await insertBook(firstCorinthiansStoryDivision); // 2. Then write

@@ -31,12 +31,12 @@ export async function insertBook(bookContent: any) {
 // For now, insert Psalms only
 export async function insertGenesis() {
   //await insertBook(markStoryDivision);
-  // await insertBook(firstCorinthiansStoryDivision);
+  await insertBook(firstCorinthiansStoryDivision);
   // await insertBook(romansStoryDivision);
   //await insertBook(lukeStoryDivision);
   // await insertBook(romansStoryDivision);
   //await insertBook(matthewBookContent);
-  //await insertBook(haggaiStoryDivision);
+  await insertBook(haggaiStoryDivision);
   //  await insertBook(johnStoryDivision);
-  await insertBook(actsStoryDivision);
+  //await insertBook(actsStoryDivision);
 }
