@@ -11,6 +11,9 @@ import { firstCorinthiansStoryDivision } from "../data/newTestament/1_corinthian
 import { romansStoryDivision } from "../data/newTestament/romans";
 import { markStoryDivision } from "../data/newTestament/mark";
 import { lukeStoryDivision } from "../data/newTestament/luke";
+import { johnStoryDivision } from "../data/newTestament/jhon";
+
+import { actsStoryDivision } from "../data/newTestament/acts";
 
 // later you can import genesis, exodus, matthew, etc.
 
@@ -27,11 +30,13 @@ export async function insertBook(bookContent: any) {
 
 // For now, insert Psalms only
 export async function insertGenesis() {
-  // await insertBook(markStoryDivision);
+  //await insertBook(markStoryDivision);
   // await insertBook(firstCorinthiansStoryDivision);
   // await insertBook(romansStoryDivision);
   //await insertBook(lukeStoryDivision);
   // await insertBook(romansStoryDivision);
   //await insertBook(matthewBookContent);
-  await insertBook(haggaiStoryDivision);
+  //await insertBook(haggaiStoryDivision);
+  //  await insertBook(johnStoryDivision);
+  await insertBook(actsStoryDivision);
 }
