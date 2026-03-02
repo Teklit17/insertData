@@ -2,21 +2,23 @@
 
 import { doc, setDoc } from "firebase/firestore";
 import { db } from "../firebase";
-import { psalmsBookContent } from "../data/oldTestament/psalms";
+
+// Old Testament
 import { genesisBookContent } from "../data/oldTestament/genesis";
 import { exodusStoryDivision } from "../data/oldTestament/Exodus";
+import { psalmsBookContent } from "../data/oldTestament/psalms";
 import { haggaiStoryDivision } from "../data/oldTestament/haggai";
+
+// New Testament
 import { matthewBookContent } from "../data/newTestament/matthew";
-import { firstCorinthiansStoryDivision } from "../data/newTestament/1_corinthians";
-import { secondCorinthiansStoryDivision } from "../data/newTestament/2_corinthians";
-import { romansStoryDivision } from "../data/newTestament/romans";
 import { markStoryDivision } from "../data/newTestament/mark";
 import { lukeStoryDivision } from "../data/newTestament/luke";
 import { johnStoryDivision } from "../data/newTestament/jhon";
-
 import { actsStoryDivision } from "../data/newTestament/acts";
-
-// later you can import genesis, exodus, matthew, etc.
+import { romansStoryDivision } from "../data/newTestament/romans";
+import { firstCorinthiansStoryDivision } from "../data/newTestament/1_corinthians";
+import { secondCorinthiansStoryDivision } from "../data/newTestament/2_corinthians";
+import { galatiansStoryDivision } from "../data/newTestament/galatians";
 
 export async function insertBook(bookContent: any) {
   try {
@@ -29,17 +31,22 @@ export async function insertBook(bookContent: any) {
   }
 }
 
-// For now, insert Psalms only
-export async function insertGenesis() {
-  //await insertBook(markStoryDivision);
-  // await insertBook(firstCorinthiansStoryDivision);
-  await insertBook(secondCorinthiansStoryDivision);
+// Insert specific books here
+export async function seedBooks() {
+  // Old Testament
+  // await insertBook(genesisBookContent);
+  // await insertBook(exodusStoryDivision);
+  // await insertBook(psalmsBookContent);
+  // await insertBook(haggaiStoryDivision);
 
+  // New Testament
+  // await insertBook(matthewBookContent);
+  // await insertBook(markStoryDivision);
+  // await insertBook(lukeStoryDivision);
+  // await insertBook(johnStoryDivision);
+  // await insertBook(actsStoryDivision);
   // await insertBook(romansStoryDivision);
-  //await insertBook(lukeStoryDivision);
-  // await insertBook(romansStoryDivision);
-  //await insertBook(matthewBookContent);
-  await insertBook(haggaiStoryDivision);
-  //  await insertBook(johnStoryDivision);
-  //await insertBook(actsStoryDivision);
+  // await insertBook(firstCorinthiansStoryDivision);
+  // await insertBook(secondCorinthiansStoryDivision);
+  await insertBook(galatiansStoryDivision);
 }

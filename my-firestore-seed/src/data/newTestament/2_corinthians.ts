@@ -10,8 +10,8 @@ export const secondCorinthiansStoryDivision = {
   divisions: [
     {
       order: 1,
-      title_en: "Comfort in Affliction",
-      title_ti: "ምጽንናዕ ኣብ መከራ",
+      title_en: "The God of All Comfort",
+      title_ti: "ኣምላኽ ኵሉ ምጽንናዕን",
       range_en: "2 Corinthians 1–2",
       range_ti: "2 ቆሮንቶስ 1–2",
       verse_en:
@@ -21,17 +21,6 @@ export const secondCorinthiansStoryDivision = {
       sections: [
         {
           order: 1,
-          title_en: "The God of All Comfort",
-          title_ti: "ኣምላኽ ኩሉ ምጽንናዕ",
-          range_en: "2 Corinthians 1:3–7",
-          range_ti: "2 ቆሮንቶስ 1፡3–7",
-          verse_en:
-            "Blessed be God, even the Father of our Lord Jesus Christ, the Father of mercies, and the God of all comfort;",
-          verse_ti: "ብሩኽ ይኹን ኣምላኽ፡ ኣቦ ጐይታና የሱስ ክርስቶስ፡ ኣቦ ምሕረትን ኣምላኽ ኩሉ ምጽናንን።",
-          verse_number: "1:3",
-        },
-        {
-          order: 2,
           title_en: "Delivered from Deadly Peril",
           title_ti: "ኣድሒኑና፣ የድሕነና ኣሎ፡ ንዳሕራዩውን ከድሕነና'ዩ",
           range_en: "2 Corinthians 1:8–11",
@@ -43,9 +32,9 @@ export const secondCorinthiansStoryDivision = {
           verse_number: "1:10",
         },
         {
-          order: 3,
-          title_en: "Paul’s Integrity and Change of Plans",
-          title_ti: "ቕንዕና ጳውሎስን፣ ለውጢ መደባቱን",
+          order: 2,
+          title_en: "In Him Yes and Amen",
+          title_ti: "ብእኡ እወ ፤ኣሜን ",
           range_en: "2 Corinthians 1:12–24",
           range_ti: "2 ቆሮንቶስ 1፡12–24",
           verse_en:
@@ -55,39 +44,28 @@ export const secondCorinthiansStoryDivision = {
           verse_number: "1:20",
         },
         {
-          order: 4,
-          title_en: "Forgive and Restore the Sinner",
-          title_ti: "ነቲ ሓጢኣተኛ ምሕርን ምመልሳን",
+          order: 3,
+          title_en: "Forgive the Sinner",
+          title_ti: "ን ዝበደለ ይቕረ ምባል",
           range_en: "2 Corinthians 2:5–11",
           range_ti: "2 ቆሮንቶስ 2፡5–11",
           verse_en:
             "So that contrariwise ye ought rather to forgive him, and comfort him, lest perhaps such a one should be swallowed up with overmuch sorrow.",
           verse_ti:
-            "እንተ ዘይኮነ ግና ንእኡ ክትምሕሩን ክትጽናኑን ይግባእ፤ ከይደኸመ ብዙሕ ሓዘን ከይውስዶ እምበር።",
+            "እምብኣርሲ ነዚ ኸምዚ ዝበለ፡ ምናልባሽ ብብዝሒ ጓሂ ኸይውሐጥ፡ ይቕረ ደኣ በሉሉን ኣጸናንዕዎን።",
           verse_number: "2:7",
         },
+
         {
-          order: 5,
-          title_en: "Anxiety at Troas",
-          title_ti: "ጭንቀት ኣብ ጥሮኣስ",
-          range_en: "2 Corinthians 2:12–13",
-          range_ti: "2 ቆሮንቶስ 2፡12–13",
-          verse_en:
-            "I had no rest in my spirit, because I found not Titus my brother: but taking my leave of them, I went from thence into Macedonia.",
-          verse_ti:
-            "ቲቶስ ሓወይ ኣብኡ ስለ ዘይረኸብክዎ፡ ብመንፈሰይ ዕረፍቲ ኣይነበረን፤ ስለዚ ምሳታቶም ተሰናቢተ ናብ መቄዶንያ ከድኩ።",
-          verse_number: "2:13",
-        },
-        {
-          order: 6,
+          order: 4,
           title_en: "Victory in Christ",
-          title_ti: "ድል ብክርስቶስ",
+          title_ti: "ዓወት ብክርስቶስ",
           range_en: "2 Corinthians 2:14–17",
           range_ti: "2 ቆሮንቶስ 2፡14–17",
           verse_en:
             "Now thanks be unto God, which always causeth us to triumph in Christ, and maketh manifest the savour of his knowledge by us in every place.",
           verse_ti:
-            "ንኣምላኽ ግና ምስጋና ይኹን፤ ንሱ ኩሉ ጊዜ ብክርስቶስ ድል ይህበና፡ ሽቶ ፍልጠቱ ድማ ብእናና ኣብ ኩሉ ስፍራ ይግልጽ።",
+            "ግናኸ ነቲ ብክርስቶስ ኵሉ ሳዕ ናብ ዓወት ዚመርሓና፡ ብኣናውን መኣዛ ፍልጠቱ ኣብ ኵሉ ቦታ ዚገልጽ ኣምላኽ፡ ስብሓት ይኹኖ።",
           verse_number: "2:14",
         },
       ],
@@ -250,8 +228,8 @@ export const secondCorinthiansStoryDivision = {
     },
     {
       order: 4,
-      title_en: "Grace in Giving",
-      title_ti: "ጸጋ ምሃብ",
+      title_en: "Rich Through His Poverty",
+      title_ti: "በቲ ድኽነቱ ምህብታም",
       range_en: "2 Corinthians 8–9",
       range_ti: "2 ቆሮንቶስ 8–9",
       verse_en:
@@ -334,8 +312,8 @@ export const secondCorinthiansStoryDivision = {
     },
     {
       order: 5,
-      title_en: "Strength Perfected in Weakness",
-      title_ti: "ብድኻም ትፍጸም ሓይሊ",
+      title_en: "My grace is sufficient",
+      title_ti: "ጸጋይ ይኣኽለካ",
       range_en: "2 Corinthians 10–13",
       range_ti: "2 ቆሮንቶስ 10–13",
       verse_en:
