@@ -8,6 +8,7 @@ import { exodusStoryDivision } from "../data/oldTestament/Exodus";
 import { haggaiStoryDivision } from "../data/oldTestament/haggai";
 import { matthewBookContent } from "../data/newTestament/matthew";
 import { firstCorinthiansStoryDivision } from "../data/newTestament/1_corinthians";
+import { secondCorinthiansStoryDivision } from "../data/newTestament/2_corinthians";
 import { romansStoryDivision } from "../data/newTestament/romans";
 import { markStoryDivision } from "../data/newTestament/mark";
 import { lukeStoryDivision } from "../data/newTestament/luke";
@@ -31,7 +32,9 @@ export async function insertBook(bookContent: any) {
 // For now, insert Psalms only
 export async function insertGenesis() {
   //await insertBook(markStoryDivision);
-  await insertBook(firstCorinthiansStoryDivision);
+  // await insertBook(firstCorinthiansStoryDivision);
+  await insertBook(secondCorinthiansStoryDivision);
+
   // await insertBook(romansStoryDivision);
   //await insertBook(lukeStoryDivision);
   // await insertBook(romansStoryDivision);

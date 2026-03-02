@@ -4,6 +4,8 @@ import { genesisBookContent } from "./data/oldTestament/genesis";
 import { exodusStoryDivision } from "./data/oldTestament/Exodus";
 import { matthewBookContent } from "./data/newTestament/matthew";
 import { firstCorinthiansStoryDivision } from "./data/newTestament/1_corinthians";
+
+import { secondCorinthiansStoryDivision } from "./data/newTestament/2_corinthians";
 import { romansStoryDivision } from "./data/newTestament/romans";
 import { markStoryDivision } from "./data/newTestament/mark";
 import { lukeStoryDivision } from "./data/newTestament/luke";
@@ -21,7 +23,9 @@ async function run() {
 
   //  await insertBook(actsStoryDivision);
 
-  await insertBook(firstCorinthiansStoryDivision);
+  //await insertBook(firstCorinthiansStoryDivision);
+
+  await insertBook(secondCorinthiansStoryDivision);
   //await insertBook(romansStoryDivision);
 
   // await insertBook(firstCorinthiansStoryDivision); // 2. Then write
