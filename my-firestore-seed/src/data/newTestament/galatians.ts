@@ -200,7 +200,7 @@ export const galatiansStoryDivision = {
     {
       order: 3,
       title_en: "Freedom in the Spirit",
-      title_ti: "ናጻነት ብመንፈስ",
+      title_ti: "ሓርነት ብመንፈስ",
       range_en: "Galatians 5–6",
       range_ti: "ገላትያ 5–6",
       verse_en:
@@ -212,7 +212,7 @@ export const galatiansStoryDivision = {
         {
           order: 1,
           title_en: "Freedom in Christ",
-          title_ti: "ናጻነት ኣብ ክርስቶስ",
+          title_ti: "ሓርነት ኣብ ክርስቶስ",
           range_en: "Galatians 5:1–5:12",
           range_ti: "ገላትያ 5፡1–5፡12",
           verse_en:

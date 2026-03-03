@@ -19,6 +19,7 @@ import { romansStoryDivision } from "../data/newTestament/romans";
 import { firstCorinthiansStoryDivision } from "../data/newTestament/1_corinthians";
 import { secondCorinthiansStoryDivision } from "../data/newTestament/2_corinthians";
 import { galatiansStoryDivision } from "../data/newTestament/galatians";
+import { ephesiansStoryDivision } from "../data/newTestament/ephesians";
 
 export async function insertBook(bookContent: any) {
   try {
@@ -40,7 +41,7 @@ export async function seedBooks() {
   // await insertBook(haggaiStoryDivision);
 
   // New Testament
-  // await insertBook(matthewBookContent);
+  //await insertBook(matthewBookContent);
   // await insertBook(markStoryDivision);
   // await insertBook(lukeStoryDivision);
   // await insertBook(johnStoryDivision);
@@ -48,5 +49,6 @@ export async function seedBooks() {
   // await insertBook(romansStoryDivision);
   // await insertBook(firstCorinthiansStoryDivision);
   // await insertBook(secondCorinthiansStoryDivision);
-  await insertBook(galatiansStoryDivision);
+  //await insertBook(galatiansStoryDivision);
+  await insertBook(ephesiansStoryDivision);
 }

@@ -11,11 +11,11 @@ export const matthewBookContent = {
     {
       order: 1,
 
-      title_en: "The Birth and Early Life of Jesus",
-      title_ti: "ልደትን፣ ቀዳሞት ዓመታትን፣ የሱስ",
+      title_en: "The Birth and Early Ministry",
+      title_ti: "ልደትን፣ ፋላማይ ኣገልግሎትን",
 
-      range_en: "Matthew 1–2",
-      range_ti: "ማቴዎስ 1–2",
+      range_en: "Matthew 1–4",
+      range_ti: "ማቴዎስ 1–4",
 
       verse_en:
         "She will give birth to a son, and you are to give him the name Jesus, because he will save his people from their sins.",
@@ -24,17 +24,6 @@ export const matthewBookContent = {
       verse_number: "1፡21",
 
       sections: [
-        {
-          order: 1,
-          title_en: "The Genealogy of Jesus",
-          title_ti: "ወለዶ የሱስ ክርስቶስ",
-          range_en: "Matthew 1:1–17",
-          range_ti: "ማቴዎስ 1፡1–17",
-          verse_en:
-            "This is the genealogy of Jesus the Messiah the son of David, the son of Abraham.",
-          verse_ti: "መጽሓፍ ወለዶ የሱስ ክርስቶስ ወዲ ዳዊት፡ ወዲ ኣብርሃም።",
-          verse_number: "1፡1",
-        },
         {
           order: 2,
           title_en: "The Birth of Jesus Christ",
@@ -71,37 +60,9 @@ export const matthewBookContent = {
           verse_ti:
             "2:13 – ንሳቶም ምስ ሐለፉ፡ እንሆ፡ መልኣኽ እግዚኣብሄር ንዮሴፍ ብሕልሚ ተራእዮ፡ ሄሮዶስ ነቲ ሕጻን ኪቐትሎ ይደሊ አሎ እሞ፡ ተንስእ፡ ነቲ ሕጻንን ነዲኡን ሒዝካ ናብ ግብጺ ህደም፡ ክሳዕ ዝነግረካ ኸኣ ኣብኡ ጽናሕ፡ በሎ።",
         },
+
         {
           order: 5,
-          title_en: "The Return to Nazareth",
-          title_ti: "ምምላስ ናብ ናዝሬት",
-          range_en: "Matthew 2:19–23",
-          range_ti: "ማቴዎስ 2፡19–23",
-          verse_en:
-            "And he went and lived in a town called Nazareth. So was fulfilled what was said through the prophets.",
-          verse_ti:
-            "እቲ ብነብያት፡ ናዝሬታዊ ኺበሀል፡ እተበሀለ ምእንቲ ኺፍጸም፡ ናዝሬት ናብ እትበሀል ዓዲ መጺኡ ተቐመጠ።",
-          verse_number: "2፡23",
-        },
-      ],
-    },
-    {
-      order: 2,
-
-      title_en: "The Preparation and Ministry of Jesus",
-      title_ti: "ምድላውን፣ ኣገልግሎትን የሱስ",
-
-      range_en: "Matthew 3–4",
-      range_ti: "ማቴዎስ 3–4",
-
-      verse_en:
-        "And a voice from heaven said, “This is my Son, whom I love; with him I am well pleased.”",
-      verse_ti: "እንሆ ድማ ብእኡ ዝሰመርኩ ፍትዊ ወደይ እዚ እዩ፡ ዚብል ድምጺ ኻብ ሰማይ መጸ።",
-      verse_number: "3፡17",
-
-      sections: [
-        {
-          order: 1,
           title_en: "The Ministry of John the Baptist",
           title_ti: "ስብከት ዮሃንስ መጥምቅ",
           range_en: "Matthew 3:1–12",
@@ -111,7 +72,7 @@ export const matthewBookContent = {
           verse_number: "3፡2",
         },
         {
-          order: 2,
+          order: 6,
           title_en: "The Baptism of Jesus",
           title_ti: "ጥምቀት የሱስ",
           range_en: "Matthew 3:13–17",
@@ -123,7 +84,7 @@ export const matthewBookContent = {
           verse_number: "3፡16",
         },
         {
-          order: 3,
+          order: 7,
           title_en: "The Temptation of Jesus",
 
           title_ti: "የሱስ ብድያብሎስ ከም ዝተፈተነ ",
@@ -136,7 +97,7 @@ export const matthewBookContent = {
           verse_number: "4፡4",
         },
         {
-          order: 4,
+          order: 8,
           title_en: "Jesus Begins to Preach",
           title_ti: "የሱስ ኣብ ገሊላ ክምህር ከም ዝጀመረ",
           range_en: "Matthew 4:12–17",
@@ -149,7 +110,7 @@ export const matthewBookContent = {
       ],
     },
     {
-      order: 3,
+      order: 2,
 
       title_en: "The Sermon on the Mount",
       title_ti: "ናይ ከረን ስብከት ",
@@ -277,10 +238,10 @@ export const matthewBookContent = {
       ],
     },
     {
-      order: 4,
+      order: 3,
 
-      title_en: "The Authority and Miracles of Jesus",
-      title_ti: "ስልጣንን፣ ተኣምራትን፣ የሱስ",
+      title_en: "Authority and Miracles",
+      title_ti: "ስልጣንን፣ ተኣምራትን",
 
       range_en: "Matthew 8–9",
       range_ti: "ማቴዎስ 8–9",
@@ -388,28 +349,9 @@ export const matthewBookContent = {
           verse_ti:
             "ንሓድሽ ወይኒ ኣብ ኣረገውቲ ኣሕርብቲ ኣየዕርቕዎን፡ እንተ ዘይኰነስ እቲ ኣሕርብቲ ይቕደድ፡ እቲ ወይኒውን ይፈስስ፡ ኣሕርብቲ ኸኣ ይበላሾ። ንሓድሽ ወይኒ ግና ኣብ ሓደስቲ ኣሕርብቲ የዕርቕዎ፡ ክልቲኦም ድማ ይእርነቡ።",
         },
+
         {
           order: 10,
-          title_en: "A Dead Girl and a Sick Woman",
-          title_ti: "ጓል ያኢሮስን ደም ዚፈሳ ሰበይትን",
-          range_en: "Matthew 9:18–26",
-          range_ti: "ማቴዎስ 9፡18–26",
-          verse_number: "9:22",
-          verse_en: "Your faith has healed you.",
-          verse_ti: "እምነትኪ ኣድሒናኪ።",
-        },
-        {
-          order: 11,
-          title_en: "Jesus Heals the Blind and the Mute",
-          title_ti: "ዓይነ-ስውርን ዓባስን ",
-          range_en: "Matthew 9:27–34",
-          range_ti: "ማቴዎስ 9፡27–34",
-          verse_number: "9:29",
-          verse_en: "According to your faith let it be done to you.",
-          verse_ti: "ሽዑ፡ ከም እምነትኩም ይኹነልኩም፡ ኢሉ ኣዒንቶም ተንከየ።",
-        },
-        {
-          order: 12,
           title_en: "The Workers Are Few",
           title_ti: "ውሑዳት ዓየይቲ ናይቲ ብዙሕ እኽሊ \n",
           range_en: "Matthew 9:35–38",
@@ -422,7 +364,7 @@ export const matthewBookContent = {
     },
 
     {
-      order: 5,
+      order: 4,
       title_en: "Mission of the Disciples",
       title_ti: "ተልእኮ ደቂ መዝሙር",
       range_en: "Matthew 10",
@@ -483,162 +425,7 @@ export const matthewBookContent = {
     },
 
     {
-      order: 6,
-      title_en: "Acceptance and Rejection of the King",
-      title_ti: "ምቅባልን ምንጻግን የሱስ",
-      range_en: "Matthew 11–12",
-      range_ti: "ማቴዎስ 11–12",
-
-      verse_number: "11:28",
-      verse_en:
-        "Come to me, all who labor and are heavy laden, and I will give you rest.",
-      verse_ti: "ኣቱም ኵልኹም እትጽዕሩን ጾር ዝኸበደኩምን፡ ኣነ ኸዕርፈኩም ናባይ ንዑ።",
-      hook: "doubt, rejection",
-      sections: [
-        {
-          order: 1,
-          title_en: "Jesus and John the Baptist",
-          title_ti: "ካብ የውሃንስ መጥመቕ ናብ የሱስ ዝተላእኩ ",
-          range_en: "Matthew 11:1–6",
-          range_ti: "ማቴዎስ 11፡1–6",
-          verse_number: "11:5",
-          verse_en:
-            "The blind receive sight, the lame walk, those who have leprosy are cleansed.",
-          verse_ti:
-            "ዕዉራት ይርእዩ፡ ሓንካሳት ይኸዱ፡ ለምጻማት ይነጽሁ፡ ጸማማት ይሰምዑ፡ ምዉታት ይትንስኡ፡ ንድኻታት ድማ ወንጌል ይስበኽ አሎ።",
-        },
-        {
-          order: 2,
-          title_en: "Jesus Praises John the Baptist",
-          title_ti: "የሱስ ንዮሃንስ መጥምቕ ይንእዶ",
-          range_en: "Matthew 11:7–15",
-          range_ti: "ማቴዎስ 11፡7–15",
-          verse_number: "11:11",
-          verse_en:
-            "Among those born of women there has not risen anyone greater than John the Baptist.",
-          verse_ti:
-            "ብሓቂ እብለኩም አሎኹ፡ ካብ ኣንስቲ ኻብ እተወለዱ ኻብ ዮሃንስ መጥመቕ ዚዐቢ ሓደ እኳ ኣይተንስኤን። ኣብ መንግስተ ሰማያት ግና እቲ ዚንእስ ካብኡ ይዐቢ።",
-        },
-        {
-          order: 3,
-          title_en: "Woe on Unrepentant Cities",
-          title_ti: "ብዘይ ምእማነን ዝተወቕሳ ከተማታት ",
-          range_en: "Matthew 11:20–24",
-          range_ti: "ማቴዎስ 11፡20–24",
-          verse_number: "11:21",
-          verse_en:
-            "If the miracles that were performed in you had been performed in Tyre and Sidon, they would have repented.",
-          verse_ti:
-            "ወይለኺ ኰራዚን፡ ወይለኺ ቤተ-ሳይዳ፡ እዚ ኣባኻትክን እተገበረ ሓይሊ ኣብ ጢሮስን ኣብ ሲዶናን ተገይሩ እንተ ዚኸውንሲ፡ ቀደም ማቕ ተኸዲነን፡ ሓሙዅስቲ ተነጺፈን ምተነስሓ ነይረን።",
-        },
-        {
-          order: 4,
-          title_en: "Rest for the Weary",
-          title_ti: "ናባይ ንዑ ከዕርፈኩም",
-          range_en: "Matthew 11:25–30",
-          range_ti: "ማቴዎስ 11፡25–30",
-          verse_number: "11:28",
-          verse_en:
-            "Come to me, all you who are weary and burdened, and I will give you rest.",
-          verse_ti: "ኣቱም ኵልኹም እትጽዕሩን ጾር ዝኸበደኩምን፡ ኣነ ኸዕርፈኩም ናባይ ንዑ።",
-        },
-        {
-          order: 5,
-          title_en: "Lord of the Sabbath",
-          title_ti: "ጐይታ ሰንበት",
-          range_en: "Matthew 12:1–8",
-          range_ti: "ማቴዎስ 12፡1–8",
-          verse_number: "12:8",
-          verse_en: "For the Son of Man is Lord of the Sabbath.",
-          verse_ti: "እምብኣርስኸ ወዲ ሰብ ጐይታ ሰንበት እዩ።",
-        },
-        {
-          order: 6,
-          title_en: "Jesus Heals on the Sabbath",
-          title_ti: "ብ ሰንበት ኣሕወየ",
-          range_en: "Matthew 12:9–14",
-          range_ti: "ማቴዎስ 12፡9–14",
-          verse_number: "12:12",
-          verse_en: "It is lawful to do good on the Sabbath.",
-          verse_ti: "ካብ በጊዕሲ ሰብዶ ግዳ ኣዝዩ ኣይበልጽን፧ እምብኣርሲ፡ ብሰንበት ጽቡቕ ምግባር ግቡእ እዩ።",
-        },
-        {
-          order: 7,
-          title_en: "God’s Chosen Servant",
-          title_ti: "ዝተመረጸ ኣገልጋሊ ኣምላኽ",
-          range_en: "Matthew 12:15–21",
-          range_ti: "ማቴዎስ 12፡15–21",
-          verse_number: "12:18",
-          verse_en: "Here is my servant whom I have chosen.",
-          verse_ti:
-            "እንሆ፡ ዝሐሬኽዎ ጊልያይ፡ ነፍሰይ ዝሰመረቶ ፈታውየይ፡ ኣብኡ መንፈሰይ ከሕድር እየ፡ ንሱ ድማ ነህዛብ ፍትሒ ኼውጽአሎም እዩ።",
-        },
-        {
-          order: 8,
-          title_en: "Jesus and Beelzebul",
-          title_ti: "የሱስን ብዔልዘቡል",
-          range_en: "Matthew 12:22–37",
-          range_ti: "ማቴዎስ 12፡22–37",
-          verse_number: "12:28",
-          verse_en:
-            "If it is by the Spirit of God that I drive out demons, then the kingdom of God has come upon you.",
-          verse_ti:
-            "ኣነ ነጋንንቲ ብመንፈስ ኣምላኽ ዘውጽኦም ካብ ኰንኩ ግና፡ እንሃ፡ መንግስቲ ኣምላኽ ናባኻትኩም መጸት።",
-        },
-
-        {
-          order: 9,
-          title_en: "A Tree and Its Fruit",
-          title_ti: "ገረብ ብፍሪኡ",
-          range_en: "Matthew 12:33–37",
-          range_ti: "ማቴዎስ 12፡33–37",
-          verse_number: "12:33",
-          verse_en:
-            "Make a tree good and its fruit will be good, or make a tree bad and its fruit will be bad.",
-          verse_ti:
-            "ኦም ካብ ፍሪኡ ይፍለጥ እዩ እሞ፡ ነቲ ኦም ጽቡቕ ግበርዎ፡ ፍሪኡ ድማ ጽቡቕ፡ ወይስ ነቲ ኦም ክፉእ ግበርዎ፡ ፍሪኡ ድማ ክፉእ።",
-        },
-        {
-          order: 10,
-          title_en: "The Return of the Unclean Spirit",
-          title_ti: "ምምላስ መንፈስ ርኹስ",
-          range_en: "Matthew 12:43–45",
-          range_ti: "ማቴዎስ 12፡43–45",
-          verse_number: "12:45",
-          verse_en:
-            "Then it goes and takes with it seven other spirits more wicked than itself, and they go in and live there.",
-          verse_ti:
-            "ሽዑ፡ ናብታ ዝወጻእኩላ ቤተይ ደኣ ኽምለስ፡ ይብል። ምስ መጸ፡ ጥራያ፡ ተዀስቲራ፡ ተሰሊማ ይረኽባ።",
-        },
-        {
-          order: 11,
-          title_en: "The Sign of Jonah",
-          title_ti: "ትእምርቲ የናስ",
-          range_en: "Matthew 12:38–42",
-          range_ti: "ማቴዎስ 12፡38–42",
-          verse_number: "12:40",
-          verse_en:
-            "So the Son of Man will be three days and three nights in the heart of the earth.",
-          verse_ti:
-            "ዮናስ ኣብ ከብዲ ዓብዪ ዓሳ ሰለስተ መዓልትን ሰለስተ ለይትን ከም ዝገበረ፡ ከምኡ ኸኣ ወዲ ሰብ ኣብ ውሽጢ ምድሪ ሰለስተ መዓልትን ሰለስተ ለይትን ኪገብር እዩ።",
-        },
-        {
-          order: 12,
-          title_en: "Jesus’ True Family",
-          title_ti: "ሓቀኛ ስድራ የሱስ",
-          range_en: "Matthew 12:46–50",
-          range_ti: "ማቴዎስ 12፡46–50",
-          verse_number: "12:50",
-          verse_en:
-            "Whoever does the will of my Father in heaven is my brother and sister and mother.",
-          verse_ti:
-            "ፍቓድ እቲ ኣብ ሰማያት ዘሎ ኣቦይ ዚገብር ዘበለ ዅሉ፡ ንሱ ሓወይን ሓብተይን ኣደይን እዩ፡ ኢሉ ኢዱ ናብ ደቀ መዛሙርቱ ዘርጊሑ፡ ኣደይን ኣሕዋተይንሲ እነዉ፡ በለ።",
-        },
-      ],
-    },
-
-    {
-      order: 7,
+      order: 5,
       title_en: "Nature of the Kingdom in Parables",
       title_ti: "ባህሪ መንግስቲ ኣምላኽ ብምሳሌ",
       range_en: "Matthew 13",
@@ -744,294 +531,113 @@ export const matthewBookContent = {
     },
 
     {
-      order: 8,
-      title_en: "Revelation of the identity of Jesus",
-      title_ti: "መንነት የሱስ ተጋህደ",
-      range_en: "Matthew 14–16",
-      range_ti: "ማቴዎስ 14–16",
+      order: 6,
+      title_en: "The Identity of the Messiah",
+      title_ti: "መንነት እቲ መሲሕ",
+      range_en: "Matthew 14–20",
+      range_ti: "ማቴዎስ 14–20",
 
-      verse_number: "16:16",
-      verse_en: "You are the Christ, the Son of the living God.",
-      verse_ti: " ስምኦን ጴጥሮስ፡ ንሳኻ ክርስቶስ ወዲ ህያው ኣምላኽ ኢኻ፡ ኢሉ መለሰሉ።",
-      hook: "miracles, Peter’s confession",
-
+      verse_number: "16:18",
+      verse_en:
+        "You are Peter, and on this rock I will build my church, and the gates of Hades shall not prevail against it.",
+      verse_ti:
+        "ኣነ ኸኣ እብለካ አሎኹ፡ ንስኻ ጴጥሮስ ኢኻ። ንማሕበረይ ከኣ ኣብዛ ኸውሒ እዚኣ ኽሃንጻ እየ፡ ደጌታት ሲኦል ድማ ኣይሕይልዋን።",
       sections: [
         {
           order: 1,
-          title_en: "John the Baptist Beheaded",
-          title_ti: "ሞት የውሃንስ መጥመቕ ",
-          range_en: "Matthew 14:1–12",
-          range_ti: "ማቴዎስ 14፡1–12",
-          verse_number: "14:10",
-          verse_en: "He had John beheaded in the prison.",
-          verse_ti: "ልኢኹ ድማ ርእሲ ዮሃንስ ኣብ ቤት ማእሰርቲ ኣሰየፈ።",
+          title_en: "Peter Walks on the Water",
+          title_ti: "ጴጥሮስ ብ ማየ ማይ",
+          range_en: "Matthew 14:28–31",
+          range_ti: "ማቴዎስ 14፡28–31",
+          verse_number: "14:31",
+          verse_en:
+            "Immediately Jesus reached out his hand and caught him. “You of little faith,” he said, “why did you doubt?”",
+          verse_ti: "ሽዑ የሱስ ኢዱ ዘርጊሑ ሐዞ እሞ፡ ኣታ ጕዱል እምነት፡ ስለምንታይከ ተዋላወልካ፧ በሎ።",
         },
         {
           order: 2,
-          title_en: "Jesus Feeds the Five Thousand",
-          title_ti: "5 እንጌራን 2 ዓሳን",
-          range_en: "Matthew 14:13–21",
-          range_ti: "ማቴዎስ 14፡13–21",
-          verse_number: "14:19",
-          verse_en: "He took the five loaves and the two fish and gave thanks.",
-          verse_ti:
-            "እቶም ሰብውን ኣብ ሳዕሪ ኪቕመጡ ኣዘዘ። ነተን ሓሙሽተ እንጌራን ክልተ ዓሳን ኣልዒሉ፡ ናብ ሰማይ ገጹ ቝሊሕ በለ፡ ባሪኹ፡ ቈሪሱ ንደቀ መዛሙርቱ ሀቦም።",
-        },
-        {
-          order: 3,
-          title_en: "Jesus Walks on the Water",
-          title_ti: "ብ ማየ ማይ ",
-          range_en: "Matthew 14:22–33",
-          range_ti: "ማቴዎስ 14፡22–33",
-          verse_number: "14:27",
-          verse_en: "Take courage! It is I. Don’t be afraid.",
-          verse_ti: "ግናኸ የሱስ ብኡብኡ፡ ኣጆኹም፡ ኣነ እየ፡ ኣይትፍርሁ፡ ኢሉ ተዛረቦም።",
-        },
-        {
-          order: 4,
-          title_en: "Traditions vs Commandments",
-          title_ti: "ስርዓት ኣቦታት ዶ ትእዛዝ ኣምላኽ ",
-          range_en: "Matthew 15:1–9",
-          range_ti: "ማቴዎስ 15፡1–11",
-          verse_number: "15:3",
-          verse_en:
-            "Jesus replied, “And why do you break the command of God for the sake of your tradition?",
-          verse_ti:
-            "ንሱ መሊሱ በሎም፡ ስለምንታይ ግዳ ንስኻትኩም ምእንቲ ስርዓትኩም ትእዛዝ ኣምላኽ ተፍርሱ ኣሎኹም",
-        },
-        {
-          order: 5,
-          title_en: "What Defiles a Person",
-          title_ti: "ን ሰብ ዘርክሶ",
-          range_en: "Matthew 15:10–20",
-          range_ti: "ማቴዎስ 15፥10–20",
-          verse_number: "15:11",
-          verse_en: "What goes into someone’s mouth does not defile them.",
-          verse_ti: "ንሰብ እቲ ኻብ ኣፍ ዚወጽእ እዩ ዜርክሶ እምበር፡ እቲ ናብ ኣፍ ዚአቱስ ንሰብ ኣየርክሶን።",
-        },
-        {
-          order: 6,
-          title_en: "The Faith of the Canaanite Woman",
-          title_ti: "እምነት ከነኣናዊት ሰበይቲ",
-          range_en: "Matthew 15:21–28",
-          range_ti: "ማቴዎስ 15፡21–28",
+          title_en: "Great Is Your Faith",
+          title_ti: "እምነትኪ ዓባይ እያ",
+          range_en: "Matthew 15:28",
+          range_ti: "ማቴዎስ 15፡28",
           verse_number: "15:28",
           verse_en: "Woman, you have great faith! Your request is granted.",
           verse_ti:
             "ሽዑ የሱስ፡ ኣቲ ሰበይቲ፡ እምነትኪ ዓባይ እያ፡ ከም ዝደሌኽዮ ይኹነልኪ፡ ኢሉ መለሰላ። ካብታ ሰዓት እቲኣ ጓላ ሐወየት።",
         },
         {
-          order: 7,
-          title_en: "Jesus Feeds the Four Thousand",
-          title_ti: "ኣርባዕተ ሽሕ ሰባት ተመገቡ",
-          range_en: "Matthew 15:32–39",
-          range_ti: "ማቴዎስ 15፡32–39",
-          verse_number: "15:36",
-          verse_en:
-            "Then he took the seven loaves and the fish, and when he had given thanks, he broke them and gave them to the disciples, and they in turn to the people.",
-          verse_ti:
-            "ነተን ሾብዓተ እንጌራን ነቶም ዓሳን ኣልዒሉ፡ ኣመስጊኑ ቘረሰ፡ ንደቀ መዛሙርቱ ድማ ሃቦም። እቶም ደቀ መዛሙርቲ ድማ ነቶም ህዝቢ ሀብዎም።",
-        },
-        {
-          order: 8,
-          title_en: "The leaven of the pharisees",
-          title_ti: "ማይ ብሑቕ ፈሪሳውያን ",
-          range_en: "Matthew 16:01–12",
-          range_ti: "ማቴዎስ 16፡01-12",
-          verse_number: "16:6",
-          verse_en:
-            "“Be careful,” Jesus said to them. “Be on your guard against the yeast of the Pharisees and Sadducees.”",
-          verse_ti: "የሱስ ድማ፡ ካብ ማይ ብሑቝ ፈሪሳውያንን ሰዱቃውያንን ተጠንቀቑን ተኣርነቡን፡ በሎም።",
-        },
-        {
-          order: 9,
-          title_en: "Peter Declares that Jesus Is the Messiah",
-          title_ti: "ክርስቶስ ወዲ ህያው ኣምላኽ ",
-          range_en: "Matthew 16:13–20",
-          range_ti: "ማቴዎስ 16፡13–20",
+          order: 3,
+          title_en: "Foundation of the Church",
+          title_ti: "መሰረት ቤተ ክርስቲያንን",
+          range_en: "Matthew 16:16–19",
+          range_ti: "ማቴዎስ 16፡16–19",
           verse_number: "16:16",
           verse_en: "You are the Messiah, the Son of the living God.",
           verse_ti: "ስምኦን ጴጥሮስ፡ ንሳኻ ክርስቶስ ወዲ ህያው ኣምላኽ ኢኻ፡ ኢሉ መለሰሉ።",
         },
         {
-          order: 10,
-          title_en: "Jesus Predicts His Death",
-          title_ti: "የሱስ ሞቱን ትንሳኤኡን ተዛረበ",
-          range_en: "Matthew 16:21–28",
-          range_ti: "ማቴዎስ 16፡21–28",
-          verse_number: "16:21",
-          verse_en:
-            "suffer many things at the hands of the elders, chief priests and teachers of the law, and that he must be killed and on the third day be raised to life.",
-          verse_ti:
-            "ብዓበይቲን ብሊቃውንቲ ኻህናትን ብጻሕፍትን ብዙሕ ሓሳረ መከራ ኺጸግብ፡ ክቕተል፡ ብሳልሰይቲ መዓልቲውን ኪትንስእ ከም ዚግብኦ፡ ኪገልጸሎም ጀመረ።",
-        },
-      ],
-    },
-    {
-      order: 9,
-      title_en: "Life in the Kingdom of God",
-      title_ti: "ናብራ መንግስተ ኣምላኽ",
-      range_en: "Matthew 17–18",
-      range_ti: "ማቴዎስ 17–18",
-      verse_number: "17:20",
-      verse_en:
-        "For truly, I say to you, if you have faith like a grain of mustard seed, you will say to this mountain, ‘Move from here to there,’ and it will move, and nothing will be impossible for you.",
-      verse_ti:
-        "የሱስ ከኣ፡ እምነትኩም ስለ ዝጎደለት። ብሓቂ እብለኩም አሎኹ፡ ክንዲ ፍረ ኣድሪ እትኣክል እምነት እንተ ኣልያትኩም፡ ነዚ ኸረን ድማ፡ ካብዚ ናብቲ ኣግልስ፡ ትብልዎ፡ ንሱ ኸኣ የግልስ፡ ዚሰኣነኩምውን የልቦን።",
-      hook: "cross, humility, community",
-      sections: [
-        {
-          order: 1,
-          title_en: "The Transfiguration",
-          title_ti: "ትርኢት የሱስ ተለወጠ ",
-          range_en: "Matthew 17:1–8",
-          range_ti: "ማቴዎስ 17፡1–8",
-          verse_number: "17:5",
-          verse_en: "This is my Son, whom I love; with him I am well pleased.",
-          verse_ti:
-            "ብሩህ ደበና ኣጐልበቦም። እንሆ ኸኣ፡ ካብቲ ደበና፡ ዝፈትዎ ወደይ፡ ብእኡ ዝሰመርኩ እዚ እዩ፡ ንእኡ ስምዕዎ፡ ዚብል ድምጺ መጸ።",
-        },
-        {
-          order: 2,
-          title_en: "A demon that would not go out",
-          title_ti: "ምውጻእ ዝኣበየ ጋኔን ",
-          range_en: "Matthew 17:14–21",
-          range_ti: "ማቴዎስ 17፡14–21",
-          verse_number: "17:19 ",
-          verse_en:
-            "Then the disciples came to Jesus in private and asked, “Why couldn’t we drive it out?”",
-          verse_ti:
-            "ሽዑ ደቀ መዛሙርቱ ብሕት ኢሎም ናብ የሱስ መጺኦም፡ ስለምንታይ ደኣ ንሕና ምውጻኡ ዝሰኣንና፧ በልዎ።",
-        },
-        {
-          order: 3,
-          title_en: "Payment of the Temple Tax",
-          title_ti: "ግብሪ ቤተ መቕደስ",
+          order: 4,
+          title_en: "Temple Tax Coin Miracle",
+          title_ti: "ግብሪ ቤተ መቕደስ ካብ ዓሳ",
           range_en: "Matthew 17:24–27",
           range_ti: "ማቴዎስ 17፡24–27",
           verse_number: "17:27",
           verse_en:
-            "So that we may not cause offense, take the coin and give it to them for my tax and yours.",
+            "You will find a coin in its mouth. Take it and give it to them for my tax and yours.",
           verse_ti:
             "ከይንዕንቕፎም ግና፡ ናብ ባሕሪ ኼድካ መቓጥን ደርቢ፡ ነቲ ቕድም እትሕዞ ዓሳ ውሰድ፡ ኣፉ ምስ ከፈትካ፡ ኣብኡ ሓደ እስታቴር ክትረክብ ኢኻ። ንእኡ ወሲድካ፡ ኣብ ክንዳይን ኣብ ክንዳኻን ሀቦም፡ በሎ።",
         },
         {
-          order: 4,
-          title_en: "Who Is the Greatest?",
-          title_ti: "መን እዩ ዝዓበየ",
-          range_en: "Matthew 18:1–5",
-          range_ti: "ማቴዎስ 18፡1–5",
-          verse_number: "18:3",
-          verse_en:
-            "Unless you change and become like little children, you will never enter the kingdom of heaven.",
-          verse_ti:
-            "እንተ ዘይተመለስኩም፡ ከም ቈልዓውን እንተ ዘይኰንኩም፡ ናብ መንግስተ ሰማያት ከቶ ኸም ዘይትኣትዉ፡ ብሓቂ እብለኩም አሎኹ።",
-        },
-        {
           order: 5,
-          title_en: "Causing Little Ones to Stumble",
-          title_ti: "ን ናኣሽቱ ምስንካል ",
-          range_en: "Matthew 18:6–9",
-          range_ti: "ማቴዎስ 18፡6–9",
-          verse_number: "18:6",
-          verse_en: "If anyone causes one of these little ones to stumble.",
+          title_en: "Church Discipline",
+          title_ti: "ስርዓት ቤተ ክርስቲያን",
+          range_en: "Matthew 18:15–17",
+          range_ti: "ማቴዎስ 18፡15–17",
+          verse_number: "18:15",
+          verse_en:
+            "If your brother sins against you, go and tell him his fault between you and him alone.",
           verse_ti:
-            "ካብዞም ብኣይ ዚአምኑ ናእሽቱ ንሓደ ዜስሕት ግና፡ መጥሓን ኣድጊ ኣብ ክሳዱ ተአሰሩ ኣብ ዓሚቕ ባሕሪ ኺጥሕል ይሔሾ።",
+            "ሓውኻ እንተ በደለካ፡ ኪድ፡ ንስኻን ንሱን ኣብ በይንኹም ግንሓዮ። እንተ ሰምዓካ፡ ንሓውኻ ረባሕካዮ።",
         },
         {
           order: 6,
-          title_en: "The Parable of the Lost Sheep",
-          title_ti: "ዝጠፍአት በጊዕ",
-          range_en: "Matthew 18:10–14",
-          range_ti: "ማቴዎስ 18፡10–14",
-          verse_number: "18:12",
+          title_en: "Binding and Loosing Authority",
+          title_ti: "ስልጣን ምእሳርን ምፍታሕን",
+          range_en: "Matthew 18:18",
+          range_ti: "ማቴዎስ 18፡18",
+          verse_number: "18:18",
           verse_en:
-            "“What do you think? If a man owns a hundred sheep, and one of them wanders away, will he not leave the ninety-nine on the hills and go to look for the one that wandered off?",
+            "Whatever you bind on earth will be bound in heaven, and whatever you loose on earth will be loosed in heaven.",
           verse_ti:
-            "እንታይ ይመስለኩም፧ ሚእቲ በጊዕ ዘለዋኦ ሰብኣይ፡ ካብኤን ሓንቲ እንተ ጠፍኣቶ፡ ነተን ተስዓን ትሽዓተን ሐዲጉዶ ነታ ዝጠፍኤት ኪደሊ ናብ ኣኽራን ኣይከይድን፧",
+            "ኣብ ምድሪ ዝኣሰርኩምዎ ዅሉ ኣብ ሰማይ እሱር ኪኸውን እዩ። ኣብ ምድሪ ዝፈታሕኩምዎ ዅሉ ድማ ኣብ ሰማይ ፍቱሕ ከም ዚኸውን፡ ብሓቂ እብለኩም አሎኹ።",
         },
         {
           order: 7,
-          title_en: "Dealing With Sin in the Church",
-          title_ti: "ሓውካ እንተ በደለኻ",
-          range_en: "Matthew 18:15–20",
-          range_ti: "ማቴዎስ 18፡15–20",
-          verse_number: "18:15",
+          title_en: "The Parable of the Unmerciful Servant",
+          title_ti: "ምስላ ዘይርሕሩሕ ባርያ",
+          range_en: "Matthew 18:23–35",
+          range_ti: "ማቴዎስ 18፡23–35",
+          verse_number: "18:22",
           verse_en:
-            "“If your brother sins against you, go and show him his fault, just between the two of you. If he listens to you, you have won your brother over.",
-          verse_ti:
-            "ሓውካ እንተ በደለካ፡ ኪድ፡ ንስኻን ንሱን ኣብ በይንኹም ግንሓዮ። እንተ ሰምዓካ፡ ንሓውካ ረባሕካዮ።",
+            "I do not say to you, up to seven times, but up to seventy-seven times.",
+          verse_ti: "የሱስ በሎ፡ ክሳዕ ሰብዓ ሳዕ ሾብዓተ እምበር፡ ክሳዕ ሾብዓተ ሳዕ ኣይብለካን።",
         },
         {
           order: 8,
-          title_en: "The Parable of the Unmerciful Servant",
-          title_ti: "ዘይርሕሩሕ ባርያ",
-          range_en: "Matthew 18:21–35",
-          range_ti: "ማቴዎስ 18፡21–35",
-          verse_number: "18:22",
-          verse_en: "Not seven times, but seventy-seven times.",
-          verse_ti: "የሱስ በሎ፡ ክሳዕ ሰብዓ ሳዕ ሾብዓተ እምበር፡ ክሳዕ ሾብዓተ ሳዕ ኣይብለካን።",
-        },
-      ],
-    },
-    {
-      order: 10,
-      title_en: "The Cost and Reward of Discipleship",
-      title_ti: "ዋጋን፣ ሽልማትን ወደ'መዝሙርነት",
-      range_en: "Matthew 19–20",
-      range_ti: "ማቴዎስ 19–20",
-      verse_number: "20:28",
-      verse_en: "The Son of Man came not to be served but to serve.",
-      verse_ti:
-        "ወዲ ሰብ ድማ፡ ኬገልግልን ህይወቱ ምእንቲ ብዙሓት በጃ ኼሕልፍን እምበር፡ ኬገልግልዎ ኢሉ ኣይመጸን።",
-      hook: "discipleship, cost, servanthood",
-      sections: [
-        {
-          order: 1,
-          title_en: "Teaching About Marriage and Divorce",
-          title_ti: "ብዛዕባ ሓዳርን ፍትሕን",
-          range_en: "Matthew 19:1–12",
-          range_ti: "ማቴዎስ 19፡1–12",
-          verse_number: "19:6",
-          verse_en: "What God has joined together, let no one separate.",
-          verse_ti: "ደጊም ሓደ ስጋ እዮም እምበር፡ ክልተ ኣይኰኑን። ነቲ ኣምላኽ ዘጋጠሞስ፡ ሰብ ኣይፍለዮ።",
-        },
-        {
-          order: 2,
-          title_en: "Jesus Blesses the Little Children",
-          title_ti: "ባርኾት ህጻናት ",
-          range_en: "Matthew 19:13–15",
-          range_ti: "ማቴዎስ 19፡13–15",
-          verse_number: "19:14",
-          verse_en: "Let the little children come to me.",
-          verse_ti:
-            "የሱስ ግና፡ መንግስተ ሰማያት ንኸምዚኣቶም ዝበሉ እያ እሞ፡ ሕደጉ፡ ቈልዑ ናባይ ንምምጻእ ኣይትኸልክልዎም፡ በለ።",
-        },
-        {
-          order: 3,
-          title_en: "The Rich Young Man",
-          title_ti: "ሕቶ ሃብታም መንእሰይ ",
-          range_en: "Matthew 19:16–26",
-          range_ti: "ማቴዎስ 19፡16–26",
-          verse_number: "19:26",
-          verse_en: "With God all things are possible.",
-          verse_ti: "የሱስ ጠመቶም፡ እዚ ንሰብ ኣይከአሎን፡ ንኣምላኽ ግና ኵሉ ይከአሎ እዩ፡ በሎም።",
-        },
-        {
-          order: 4,
-          title_en: "The Reward of Following Jesus",
-          title_ti: "ዓስቢ ምኽታል ኢየሱስ",
-          range_en: "Matthew 19:27–30",
-          range_ti: "ማቴዎስ 19፡27–30",
-          verse_number: "19:29",
+          title_en: "Divorce",
+          title_ti: "ፍትሕ",
+          range_en: "Matthew 19:9",
+          range_ti: "ማቴዎስ 19፡9",
+          verse_number: "19:9",
           verse_en:
-            "Everyone who has left houses or family for my sake will receive a hundred times as much.",
-          verse_ti: "ሚእቲ ኻዕበት ኪረክብ፡ ናይ ዘለኣለም ህይወትውን ኪወርስ እዩ።",
+            "Whoever divorces his wife, except for sexual immorality, and marries another, commits adultery.",
+          verse_ti:
+            "ኣነ ግና፡ እቲ ንሰበይቱ ብዘይ ምኽንያት ዝሙት ዚፈትሓ ኻልእውን ዜእቱ ይዝሙ፡ እቲ ፍትሕቲ ዜእቱውን ይዝሙ፡ እብለኩም አሎኹ።",
         },
         {
-          order: 5,
-          title_en: "The Parable of the Workers in the Vineyard",
-          title_ti: "ምስላ ሰራሕተኛታት ኣታኽልቲ ወይኒ",
+          order: 9,
+          title_en: "The Workers in the Vineyard",
+          title_ti: "ሰራሕተኛታት ኣታኽልቲ ወይኒ",
           range_en: "Matthew 20:1–16",
           range_ti: "ማቴዎስ 20፡1–16",
           verse_number: "20:16",
@@ -1040,32 +646,21 @@ export const matthewBookContent = {
             "ጽዉዓትሲ ብዙሓት እዮም፡ ሕሩያት ግና ሒደት እዮም እሞ ከምኡ እቶም ዳሕሮት ቀዳሞት ኪዀኑ፡ እቶም ቀዳሞት ከኣ ዳሕሮት ኪዀኑ እዮም።",
         },
         {
-          order: 6,
-          title_en: "Jesus Predicts His Death a Third Time",
-          title_ti: "የሱስ ብዛዕባ ሞቱ ን ሳልሳይ ግዜ",
-          range_en: "Matthew 20:17–19",
-          range_ti: "ማቴዎስ 20፡17–19",
-          verse_number: "20:18",
-          verse_en:
-            "The Son of Man will be delivered over to the chief priests and teachers of the law.",
-          verse_ti:
-            "እንሆ፡ ናብ የሩሳሌም ንድይብ አሎና፡ ወዲ ሰብ ከኣ ንሊቃውንቲ ኻህናትን ንጸሓፍትን ኣሕሊፎም ኪህብዎ፡ ሞትውን ኪፈርዱሉ እዮም።",
-        },
-        {
-          order: 7,
-          title_en: "True Greatness Is Serving",
-          title_ti: "ልማኖ ኣደ ደቂ ዘብዴዎስ ",
-          range_en: "Matthew 20:20–28",
-          range_ti: "ማቴዎስ 20፡20–28",
+          order: 10,
+          title_en: "The Son of Man Came to Serve",
+          title_ti: "ወዲ ሰብ ኬገልግል መጸ",
+          range_en: "Matthew 20:28",
+          range_ti: "ማቴዎስ 20፡28",
           verse_number: "20:28",
           verse_en: "The Son of Man did not come to be served, but to serve.",
           verse_ti:
-            "ወዲ ሰብ ድማ፡ ኬገልግልን ህይወቱ ምእንቲ ብዙሓት በጃ ኼሕልፍን እምበር፡ ኬገልግልዎ ኢሉ ኣይመጸን።",
+            "ወዲ ሰብ ድማ፡ ኬገልግልን ህይወቱ ምእንቲ ብዙሓት በጃ ክሕልፍን እምበር፡ ኸገልግልዎ፦ ኢሉ ኣይመጸን።",
         },
       ],
     },
+
     {
-      order: 11,
+      order: 7,
       title_en: "Confrontation in Jerusalem",
       title_ti: "ተቃውሞ ኣብ የሩሳሌም ",
       range_en: "Matthew 21–23",
@@ -1189,22 +784,11 @@ export const matthewBookContent = {
           verse_ti:
             "እቲ ኣብ ሕጊ ዘሎ ኣውራ ነገር፡ ፍርዲ፡ ምሕረት፡ እምነት ግና ትሐድጉ አሎኹም እሞ፡ ወይለኹም። እዚ ምግባር እቲውን ዘይምሕዳግ ይግባእ።",
         },
-        {
-          order: 11,
-          title_en: "Jesus Laments Over Jerusalem",
-          title_ti: "ስምዕታ ንየሩሳሌም",
-          range_en: "Matthew 23:37–39",
-          range_ti: "ማቴዎስ 23፡37–39",
-          verse_number: "23:37",
-          verse_en: "How often I have longed to gather your children together.",
-          verse_ti:
-            "ከምቲ ደርሆ ንጨጨውታ ኣብ ትሕቲ ኣኽናፋ እትእክቦም፡ ክንደይ ሳዕከ ንደቅኺ ኽእክቦም ዘይደሌኹ እሞ ኣቤኹም።",
-        },
       ],
     },
 
     {
-      order: 12,
+      order: 8,
       title_en: "The Coming Kingdom and the End",
       title_ti: "እታ እትመጽእ መንግስትን፣መወዳአታን",
       range_en: "Matthew 24–25",
@@ -1320,7 +904,7 @@ export const matthewBookContent = {
       ],
     },
     {
-      order: 13,
+      order: 9,
       title_en: "Suffering, Death, and Resurrection",
       title_ti: "መከራ፡ ሞት፡ትንሳኤ ",
       range_en: "Matthew 26–28",

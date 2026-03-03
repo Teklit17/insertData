@@ -16,6 +16,7 @@ import { romansStoryDivision } from "./data/newTestament/romans";
 import { firstCorinthiansStoryDivision } from "./data/newTestament/1_corinthians";
 import { secondCorinthiansStoryDivision } from "./data/newTestament/2_corinthians";
 import { galatiansStoryDivision } from "./data/newTestament/galatians";
+import { ephesiansStoryDivision } from "./data/newTestament/ephesians";
 
 async function run() {
   await login();
@@ -34,7 +35,8 @@ async function run() {
   // await insertBook(romansStoryDivision);
   // await insertBook(firstCorinthiansStoryDivision);
   //  await insertBook(secondCorinthiansStoryDivision);
-  await insertBook(galatiansStoryDivision);
+  // await insertBook(galatiansStoryDivision);
+  await insertBook(ephesiansStoryDivision);
 }
 
 run();
