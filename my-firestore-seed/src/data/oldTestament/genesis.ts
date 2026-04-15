@@ -512,24 +512,6 @@ export const genesisBookContent = {
         {
           order: 3,
 
-          title_en: "Joseph Imprisoned",
-          title_ti: "ዮሴፍ ናብ ቤት-ማእሰርቲ",
-
-          range_en: "Genesis 39",
-          range_ti: "ዘፍጥረት 39",
-
-          verse_number: "39:20",
-
-          verse_en:
-            "Joseph’s master took him and put him in prison, the place where the king’s prisoners were confined.",
-
-          verse_ti:
-            "ጐይታ ዮሴፍ ድማ ወሲዱ ናብታ ቤት ማእሰርቲ፡ እቶም እሱራት ንጉስ ዚእሰሩላ ቦታ፡ ኣእተዎ። ኣብኣ ኸኣ ኣብ ቤት ማእሰርቲ ነበረ።",
-        },
-
-        {
-          order: 4,
-
           title_en: "Joseph Interprets Dreams",
           title_ti: "ዮሴፍ ሕልሚ እሱራት ፈትሐ",
 
@@ -546,7 +528,7 @@ export const genesisBookContent = {
         },
 
         {
-          order: 5,
+          order: 4,
 
           title_en: "Joseph Exalted in Egypt",
           title_ti: "ዮሴፍ ኣብ ግብጺ ተሸመ",
@@ -563,7 +545,7 @@ export const genesisBookContent = {
         },
 
         {
-          order: 6,
+          order: 5,
 
           title_en: "Joseph Reveals Himself",
           title_ti: "ዮሴፍ ነሕዋቱ ርእሱ ገለጸሎም",
@@ -581,7 +563,7 @@ export const genesisBookContent = {
         },
 
         {
-          order: 7,
+          order: 6,
 
           title_en: "Jacob Goes Down to Egypt",
           title_ti: "ያእቆብ ናብ ግብጺ ወረደ",
@@ -599,7 +581,7 @@ export const genesisBookContent = {
         },
 
         {
-          order: 9,
+          order: 7,
 
           title_en: "Jacob Blesses His Sons",
           title_ti: "ያእቆብ ንደቁ ባረኾም",
@@ -616,7 +598,7 @@ export const genesisBookContent = {
         },
 
         {
-          order: 9,
+          order: 8,
 
           title_en: "Burial of Jacob in Canaan",
           title_ti: "ቀብሪ ያእቆብ ኣብ ከንኣን",
@@ -631,24 +613,6 @@ export const genesisBookContent = {
 
           verse_ti:
             "ዮሴፍ ከኣ ነቦኡ ኪቐብሮ ደየበ። ኲላቶም ገላዉ ፈርኦንን ዓበይቲ ቤቱን፡ ኲላቶም ዓበይቲ ሃገር ግብጺ ድማ ምስኡ፡",
-        },
-
-        {
-          order: 10,
-
-          title_en: "God Turns Evil into Good",
-          title_ti: "ኣምላኽ ነቲ ክፉእ ናብ ጽቡቕ ቀየሮ",
-
-          range_en: "Genesis 50",
-          range_ti: "ዘፍጥረት 50",
-
-          verse_number: "50:20",
-
-          verse_en:
-            "You intended to harm me, but God intended it for good to accomplish what is now being done, the saving of many lives.",
-
-          verse_ti:
-            "ንስኻትኩም ንኽፉኤይ ሐሰብኩም፡ እግዚኣብሄር ግና፡ ከምቲ ሎሚ ዀይኑ ዘሎ ኺገብር ብዙሕ ህዝቢ ምእንቲ ኼድሕን፡ ንጽቡቕ ሐሰበ።",
         },
       ],
     },
