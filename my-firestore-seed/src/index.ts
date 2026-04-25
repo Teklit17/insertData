@@ -19,8 +19,23 @@ import { galatiansStoryDivision } from "./data/newTestament/galatians";
 import { ephesiansStoryDivision } from "./data/newTestament/ephesians";
 import { philippiansStoryDivision } from "./data/newTestament/philippians";
 import { firstThessaloniansStoryDivision } from "./data/newTestament/1_thessalonians";
+import { secondThessaloniansStoryDivision } from "./data/newTestament/2_thessalonians";
+import { firstTimothyStoryDivision } from "./data/newTestament/1_timothy";
+import { secondTimothyStoryDivision } from "./data/newTestament/2_timothy";
+import { titusStoryDivision } from "./data/newTestament/titus";
+import { philemonStoryDivision } from "./data/newTestament/philemon";
+import { hebrewsStoryDivision } from "./data/newTestament/hebrews";
+import { jamesStoryDivision } from "./data/newTestament/james";
+import { firstPeterStoryDivision } from "./data/newTestament/1_peter";
+import { secondPeterStoryDivision } from "./data/newTestament/2_peter";
+import { firstJohnStoryDivision } from "./data/newTestament/1_john";
+import { secondJohnStoryDivision } from "./data/newTestament/2_john";
+import { thirdJohnStoryDivision } from "./data/newTestament/3_john";
+import { judeStoryDivision } from "./data/newTestament/jude";
+import { revelationStoryDivision } from "./data/newTestament/revelation";
 import { seedLeaderboard } from "./scripts/insertLeaderboard";
 import { insertWinner, seedWinners } from "./scripts/insertWinners";
+import { colossiansStoryDivision } from "./data/newTestament/colossians";
 async function run() {
   await login();
 
@@ -41,8 +56,23 @@ async function run() {
   // await insertBook(galatiansStoryDivision);
   //await insertBook(ephesiansStoryDivision);
   // await insertBook(philippiansStoryDivision);
-  await insertBook(firstThessaloniansStoryDivision);
-  await seedLeaderboard();
+  // await insertBook(firstThessaloniansStoryDivision);
+  await insertBook(secondThessaloniansStoryDivision);
+  // await insertBook(firstTimothyStoryDivision);
+  // await insertBook(secondTimothyStoryDivision);
+  // await insertBook(titusStoryDivision);
+  // await insertBook(philemonStoryDivision);
+  // await insertBook(hebrewsStoryDivision);
+  // await insertBook(jamesStoryDivision);
+  // await insertBook(firstPeterStoryDivision);
+  // await insertBook(secondPeterStoryDivision);
+  // await insertBook(firstJohnStoryDivision);
+  // await insertBook(secondJohnStoryDivision);
+  // await insertBook(thirdJohnStoryDivision);
+  // await insertBook(judeStoryDivision);
+  // await insertBook(revelationStoryDivision);
+  // await insertBook(colossiansStoryDivision);
+  //await seedLeaderboard();
   //await seedWinners();
 }
 
