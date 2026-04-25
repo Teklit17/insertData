@@ -18,6 +18,7 @@ import { secondCorinthiansStoryDivision } from "./data/newTestament/2_corinthian
 import { galatiansStoryDivision } from "./data/newTestament/galatians";
 import { ephesiansStoryDivision } from "./data/newTestament/ephesians";
 import { philippiansStoryDivision } from "./data/newTestament/philippians";
+import { firstThessaloniansStoryDivision } from "./data/newTestament/1_thessalonians";
 import { seedLeaderboard } from "./scripts/insertLeaderboard";
 import { insertWinner, seedWinners } from "./scripts/insertWinners";
 async function run() {
@@ -40,6 +41,7 @@ async function run() {
   // await insertBook(galatiansStoryDivision);
   //await insertBook(ephesiansStoryDivision);
   // await insertBook(philippiansStoryDivision);
+  await insertBook(firstThessaloniansStoryDivision);
   await seedLeaderboard();
   //await seedWinners();
 }

@@ -21,6 +21,7 @@ import { secondCorinthiansStoryDivision } from "../data/newTestament/2_corinthia
 import { galatiansStoryDivision } from "../data/newTestament/galatians";
 import { ephesiansStoryDivision } from "../data/newTestament/ephesians";
 import { philippiansStoryDivision } from "../data/newTestament/philippians";
+import { firstThessaloniansStoryDivision } from "../data/newTestament/1_thessalonians";
 
 export async function insertBook(bookContent: any) {
   try {
@@ -52,4 +53,5 @@ export async function seedBooks() {
   //await insertBook(galatiansStoryDivision);
   //await insertBook(ephesiansStoryDivision);
   //await insertBook(philippiansStoryDivision);
+  await insertBook(firstThessaloniansStoryDivision);
 }
