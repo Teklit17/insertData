@@ -2,7 +2,7 @@ export const firstTimothyStoryDivision = {
   bookId: "1_timothy",
 
   bookName_en: "1 Timothy",
-  bookName_ti: "",
+  bookName_ti: "1 ጢሞቴዎስ",
   theme_en: "Leadership and Order",
   theme_ti: "ኣመራርሓን ስርዓትን",
 
