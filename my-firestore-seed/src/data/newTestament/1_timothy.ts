@@ -94,10 +94,10 @@ export const firstTimothyStoryDivision = {
           range_en: "1 Timothy 2:1-4",
           range_ti: "1 ጢሞቴዎስ 2:1-4",
           verse_en:
-            "For there is one God and one mediator between God and mankind, the man Christ Jesus.",
+            "I urge, then, first of all, that petitions, prayers, intercession and thanksgiving be made for all people.",
           verse_ti:
-            "ማለት፥ ኣምላኽ ሓደ በይኑ እዩ እሞ እቲ ኣብ መንጎ ኣምላኽን ሰብን ዘሎ ማእከላይውን፡ እቲ ሰብ፡ ክርስቶስ የሱስ፡ ሓደ በይኑ እዩ።",
-          verse_number: "2:5",
+            "እምብኣርከ ስለ ዅሉ ሰብ፡ ብዅሉ ኣምልኾን ምርዛንን ሃዲእና ብዘይ ህውከት ምእንቲ ኽንነብርሲ፡ ስለ ነገስታትን ስለ ዅሎም መኳንንትን ልማኖን ጸሎትን ምህልላን ምስጋናን ኪግበር፡ ቅድሚ ዅሉ እምዕድ አሎኹ።",
+          verse_number: "2:1",
         },
         {
           order: 2,
@@ -211,10 +211,10 @@ export const firstTimothyStoryDivision = {
           range_en: "1 Timothy 4:6-10",
           range_ti: "1 ጢሞቴዎስ 4:6-10",
           verse_en:
-            "Set an example for the believers in speech, in conduct, in love, in faith and in purity.",
+            "If you point these things out to the brothers and sisters, you will be a good minister of Christ Jesus.",
           verse_ti:
-            "ነቶም ኣመንቲ ብቓል፡ በኻይዳ፡ ብፍቕሪ፡ ብእምነት፡ ብንጽህናውን ኣርኣያ ኹኖም እምበር፡ ነታ ንእስነትካ ሓደ እኳ ኣይንዓቃ።",
-          verse_number: "4:12",
+            "ነቶም ኣሕዋት እዚ እንተ ኣርኤኻዮም፡ ቃል እምነትን እቲ ተኣሚንካ ዝሰዓብካዮ ጽቡቕ ምህሮን እተመገበ ሕያዋይ ኣገልጋሊ የሱስ ክርስቶስ ክትከውን ኢኻ።",
+          verse_number: "4:6",
         },
         {
           order: 3,
@@ -292,10 +292,10 @@ export const firstTimothyStoryDivision = {
           range_en: "1 Timothy 5:23-25",
           range_ti: "1 ጢሞቴዎስ 5:23-25",
 
-          verse_en: "Be careful not to be hasty in the laying on of hands.",
+          verse_en: "No longer drink only water, but use a little wine...",
           verse_ti:
-            "ብታህዋኽ ኣብ ሓደ እኳ ኢድካ ኣይተንብር፡ ኣብ ሓጢኣት ካልኦትውን ኣይትጸምበር። ንርእስኻ ብንጽህና ሐሉ።",
-          verse_number: "5:22",
+            "ደጊም ስለ ኽብድኻን ስለቲ ዚመላለሰካ ዘሎ ሕማምንሲ፡ ሒደት ወይኒ ደኣ እምበር፡ ማይ ጥራይ ኣይትስተ።",
+          verse_number: "5:23",
         },
       ],
     },
@@ -328,7 +328,7 @@ export const firstTimothyStoryDivision = {
           verse_number: "6:1",
         },
         {
-          order: 1,
+          order: 2,
           title_en: "Warnings and Contentment",
           title_ti: "መጠንቀቕታን፣ ይኣኽለኒ ምባልን",
           range_en: "1 Timothy 6:3-10",
@@ -338,7 +338,7 @@ export const firstTimothyStoryDivision = {
           verse_number: "6:6",
         },
         {
-          order: 2,
+          order: 3,
           title_en: "Fight the good fight of the faith",
           title_ti: "ጽቡቕ ገድሊ እምነት",
           range_en: "1 Timothy 6:11-16",

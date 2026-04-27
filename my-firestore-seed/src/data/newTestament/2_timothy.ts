@@ -133,8 +133,8 @@ export const secondTimothyStoryDivision = {
           order: 5,
           title_en: "A Vessel for Honor",
           title_ti: "ኣቕሓ ኽብሪ",
-          range_en: "2 Timothy 2:20-26",
-          range_ti: "2 ጢሞቴዎስ 2:20-26",
+          range_en: "2 Timothy 2:20-21",
+          range_ti: "2 ጢሞቴዎስ 2:20-21",
           verse_en:
             "Those who cleanse themselves will be instruments for special purposes.",
           verse_ti:

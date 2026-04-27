@@ -78,7 +78,7 @@ export const secondThessaloniansStoryDivision = {
       sections: [
         {
           order: 1,
-          title_en: "The Man of Lwalessness",
+          title_en: "The Man of Lawlessness",
           title_ti: "ሰብኣይ ዓመጻ",
           range_en: "2 Thessalonians 2:1-12",
           range_ti: "2 ተሰሎንቄ 2:1-12",
