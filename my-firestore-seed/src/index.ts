@@ -63,9 +63,9 @@ async function run() {
   //await insertBook(titusStoryDivision);
   //await insertBook(philemonStoryDivision);
   //await insertBook(hebrewsStoryDivision);
-  await insertBook(jamesStoryDivision);
-  // await insertBook(firstPeterStoryDivision);
-  // await insertBook(secondPeterStoryDivision);
+  //await insertBook(jamesStoryDivision);
+  //await insertBook(firstPeterStoryDivision);
+  await insertBook(secondPeterStoryDivision);
   // await insertBook(firstJohnStoryDivision);
   // await insertBook(secondJohnStoryDivision);
   // await insertBook(thirdJohnStoryDivision);
