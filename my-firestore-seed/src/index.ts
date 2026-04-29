@@ -65,12 +65,12 @@ async function run() {
   //await insertBook(hebrewsStoryDivision);
   //await insertBook(jamesStoryDivision);
   //await insertBook(firstPeterStoryDivision);
-  await insertBook(secondPeterStoryDivision);
+  //await insertBook(secondPeterStoryDivision);
   // await insertBook(firstJohnStoryDivision);
   // await insertBook(secondJohnStoryDivision);
   // await insertBook(thirdJohnStoryDivision);
   // await insertBook(judeStoryDivision);
-  // await insertBook(revelationStoryDivision);
+  await insertBook(revelationStoryDivision);
   // await insertBook(colossiansStoryDivision);
   //await seedLeaderboard();
   //await seedWinners();
