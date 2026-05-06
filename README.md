@@ -8,9 +8,9 @@ import { colors } from "./colors";
 const SIZE = 24;
 const COLOR = colors.backgroundPrimary;
 
-export const NT_BOOK_ICONS: Record<string, () => JSX.Element> = {
-/_ ================= GOSPELS ================= _/
-/_ ================= GOSPELS ================= _/
+export const NT*BOOK_ICONS: Record<string, () => JSX.Element> = {
+/* ================= GOSPELS ================= _/
+/_ ================= GOSPELS ================= \_/
 
 // Matthew — teaching and structure
 matthew: () => <Feather name="book" size={SIZE} color={COLOR} />,
@@ -186,6 +186,7 @@ revelation: () => (
 /_ ================= OLD TESTAMENT ================= _/
 
 export const OT_BOOK_ICONS: Record<string, () => JSX.Element> = {
+
 /_ ================= LAW / TORAH ================= _/
 
 // Genesis — beginnings and creation
