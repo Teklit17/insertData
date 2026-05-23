@@ -86,14 +86,14 @@ export async function insertBook(bookContent: any) {
 // Insert specific books here
 export async function seedBooks() {
   // Old Testament
-  // await insertBook(genesisBookContent);
+  await insertBook(genesisBookContent);
   // await insertBook(exodusStoryDivision);
   // await insertBook(leviticusStoryDivision);
   // await insertBook(numbersStoryDivision);
   // await insertBook(deuteronomyStoryDivision);
   // await insertBook(joshuaStoryDivision);
   // await insertBook(judgesStoryDivision);
-  await insertBook(ruthStoryDivision);
+  // await insertBook(ruthStoryDivision);
   // await insertBook(firstSamuelStoryDivision);
   // await insertBook(secondSamuelStoryDivision);
   // await insertBook(firstKingsStoryDivision);
