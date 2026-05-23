@@ -1,120 +1,95 @@
-import {
-  collection,
-  addDoc,
-  Timestamp,
-  writeBatch,
-  doc,
-} from "firebase/firestore";
-import { db } from "../firebase";
+import { Timestamp } from "firebase-admin/firestore";
+import { adminDb } from "../firebaseAdmin";
 
-/* ======================================================
-   🧠 TYPE
-====================================================== */
 export type LeaderboardEvent = {
   userId: string;
   name: string;
-  emoji?: string; // ✅ added
+  emoji?: string;
   score: number;
   createdAt?: Date;
 };
 
-/* ======================================================
-   ✅ INSERT ONE EVENT
-====================================================== */
+const defaultEmoji = "\uD83D\uDC64";
+
 export async function insertLeaderboardEvent(event: LeaderboardEvent) {
-  try {
-    if (!event || typeof event !== "object") {
-      throw new Error("❌ Invalid event object");
-    }
+  validateLeaderboardEvent(event);
 
-    if (!event.userId) {
-      throw new Error("❌ Missing userId");
-    }
+  const docRef = await adminDb.collection("leaderboard").add({
+    userId: event.userId,
+    name: event.name || "Unknown",
+    emoji: event.emoji || defaultEmoji,
+    score: event.score || 0,
+    createdAt: Timestamp.fromDate(event.createdAt || new Date()),
+  });
 
-    const docRef = await addDoc(collection(db, "leaderboard"), {
-      userId: event.userId,
-      name: event.name || "Unknown",
-      emoji: event.emoji || "👤", // ✅ added
-      score: event.score || 0,
-      createdAt: Timestamp.fromDate(event.createdAt || new Date()),
-    });
-
-    console.log("✅ EVENT INSERTED:", docRef.id);
-  } catch (error) {
-    console.error("❌ Failed to insert leaderboard event", error);
-  }
+  console.log("Leaderboard event inserted:", docRef.id);
 }
 
-/* ======================================================
-   ⚡ INSERT MANY (BATCH)
-====================================================== */
 export async function insertLeaderboardBatch(events: LeaderboardEvent[]) {
-  try {
-    if (!Array.isArray(events)) {
-      throw new Error("❌ Expected array of events");
+  if (!Array.isArray(events)) {
+    throw new Error("Expected an array of leaderboard events");
+  }
+
+  const validEvents = events.filter((event) => {
+    if (!event || !event.userId) {
+      console.warn("Skipping invalid leaderboard event:", event);
+      return false;
     }
 
-    const batch = writeBatch(db);
+    return true;
+  });
 
-    events.forEach((event) => {
-      if (!event.userId) {
-        console.warn("⚠️ Skipping invalid event:", event);
-        return;
-      }
+  for (let start = 0; start < validEvents.length; start += 500) {
+    const batch = adminDb.batch();
+    const chunk = validEvents.slice(start, start + 500);
 
-      const ref = doc(collection(db, "leaderboard"));
+    chunk.forEach((event) => {
+      const ref = adminDb.collection("leaderboard").doc();
 
       batch.set(ref, {
         userId: event.userId,
         name: event.name || "Unknown",
-        emoji: event.emoji || "👤", // ✅ added
+        emoji: event.emoji || defaultEmoji,
         score: event.score || 0,
         createdAt: Timestamp.fromDate(event.createdAt || new Date()),
       });
     });
 
     await batch.commit();
+    console.log(`Inserted leaderboard rows ${start + 1}-${start + chunk.length}`);
+  }
 
-    console.log("🚀 BATCH INSERT COMPLETE:", events.length);
-  } catch (error) {
-    console.error("❌ Batch insert failed", error);
+  console.log("Leaderboard batch insert complete:", validEvents.length);
+}
+
+function validateLeaderboardEvent(event: LeaderboardEvent) {
+  if (!event || typeof event !== "object") {
+    throw new Error("Invalid leaderboard event object");
+  }
+
+  if (!event.userId) {
+    throw new Error("Missing userId");
   }
 }
 
-/* ======================================================
-   🎲 RANDOM HELPERS
-====================================================== */
-function randomName() {
-  const names = [
-    "Alice",
-    "Bob",
-    "Charlie",
-    "David",
-    "Eden",
-    "Filmon",
-    "Grace",
-    "Hana",
-    "Isaac",
-    "Jonas",
-  ];
-  return names[Math.floor(Math.random() * names.length)];
-}
-
-function randomScore() {
-  return Math.floor(Math.random() * 100) + 1;
-}
-
 function randomEmoji() {
-  const emojis = ["🙏", "✝️", "🧎‍♂️", "🕊️", "📖", "🌿", "😇", "🔥", "⛪", "✨"];
+  const emojis = [
+    "\uD83D\uDE4F",
+    "\u271D\uFE0F",
+    "\uD83E\uDDCE\u200D\u2642\uFE0F",
+    "\uD83D\uDD4A\uFE0F",
+    "\uD83D\uDCD6",
+    "\uD83C\uDF3F",
+    "\uD83D\uDE07",
+    "\uD83D\uDD25",
+    "\u26EA",
+    "\u2728",
+  ];
+
   return emojis[Math.floor(Math.random() * emojis.length)];
 }
 
-/* ======================================================
-   🎲 MASS DATA GENERATOR
-====================================================== */
-export function generateMassLeaderboard(
-  count: number = 200,
-): LeaderboardEvent[] {
+export function generateMassLeaderboard(count: number = 200): LeaderboardEvent[] {
   const names = [
     "Alice",
     "Bob",
@@ -134,10 +109,10 @@ export function generateMassLeaderboard(
     const userIndex = Math.floor(Math.random() * 10) + 1;
 
     data.push({
-      userId: `user${userIndex}`,
+      userId: `seed-user-${userIndex}`,
       name: names[Math.floor(Math.random() * names.length)],
-      emoji: randomEmoji(), // ✅ added
-      score: Math.floor(Math.random() * 200),
+      emoji: randomEmoji(),
+      score: Math.floor(Math.random() * 5000) + 100,
       createdAt: new Date(),
     });
   }
@@ -145,37 +120,36 @@ export function generateMassLeaderboard(
   return data;
 }
 
-/* ======================================================
-   🧪 TEST DATA (10 USERS ONLY)
-====================================================== */
 export const leaderboardTestData: LeaderboardEvent[] = [
-  { userId: "user3", name: "Charlie", emoji: "🧎‍♂️", score: 20 },
-  { userId: "user3", name: "Charlie", emoji: "🧎‍♂️", score: 60 },
-
-  { userId: "user4", name: "Alice", emoji: "🕊️", score: 70 },
-
-  { userId: "user5", name: "David", emoji: "📖", score: 22 },
-  { userId: "user5", name: "David", emoji: "📖", score: 60 },
-
-  { userId: "user6", name: "Eden", emoji: "🌿", score: 33 },
-  { userId: "user6", name: "Eden", emoji: "🌿", score: 95 },
-
-  { userId: "user7", name: "Grace", emoji: "😇", score: 55 },
-
-  { userId: "user8", name: "Isaac", emoji: "🔥", score: 77 },
-
-  { userId: "user9", name: "Jonas", emoji: "⛪", score: 88 },
-
-  { userId: "user10", name: "", emoji: "✨", score: 10 },
+  { userId: "seed-user-1", name: "Hana", emoji: "\uD83D\uDE4F", score: 5000 },
+  { userId: "seed-user-2", name: "Filmon", emoji: "\uD83D\uDCD6", score: 4700 },
+  { userId: "seed-user-3", name: "Eden", emoji: "\uD83C\uDF3F", score: 4300 },
+  { userId: "seed-user-4", name: "Grace", emoji: "\u2728", score: 3900 },
+  { userId: "seed-user-5", name: "Isaac", emoji: "\uD83D\uDD25", score: 3500 },
+  { userId: "seed-user-6", name: "Jonas", emoji: "\u26EA", score: 3100 },
+  { userId: "seed-user-7", name: "Alice", emoji: "\uD83D\uDD4A\uFE0F", score: 2800 },
+  { userId: "seed-user-8", name: "David", emoji: "\u271D\uFE0F", score: 2400 },
+  { userId: "seed-user-9", name: "Bob", emoji: "\uD83D\uDE07", score: 2100 },
+  { userId: "seed-user-10", name: "Charlie", emoji: defaultEmoji, score: 1800 },
 ];
 
-/* ======================================================
-   🚀 SEED FUNCTIONS
-====================================================== */
 export async function seedLeaderboard() {
   await insertLeaderboardBatch(leaderboardTestData);
 }
 
 export async function seedRandomLeaderboard(count: number = 50) {
   await insertLeaderboardBatch(generateMassLeaderboard(count));
+}
+
+if (require.main === module) {
+  const countArg = Number(process.argv[2]);
+  const seed =
+    Number.isFinite(countArg) && countArg > 0
+      ? seedRandomLeaderboard(countArg)
+      : seedLeaderboard();
+
+  seed.catch((error) => {
+    console.error("Leaderboard seed failed:", error);
+    process.exitCode = 1;
+  });
 }
