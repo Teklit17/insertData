@@ -1,9 +1,9 @@
 import { login } from "./firebase";
-import { seedZoomQuiz } from "./scripts/insertFunQuizData";
+import { seedBooks } from "./scripts/insertBook";
 
 async function run() {
   await login();
-  await seedZoomQuiz();
+  await seedBooks();
 }
 
 run().catch((error) => {

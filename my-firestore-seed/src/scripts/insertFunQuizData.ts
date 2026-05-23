@@ -111,7 +111,7 @@ export async function seedStoryChoice() {
 }
 
 export async function seedFunQuizData() {
-  await seedZoomQuiz();
+  //await seedZoomQuiz();
   //  await seedBibleTrivia();
   //await seedStoryChoice();
 }

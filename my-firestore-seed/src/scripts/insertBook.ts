@@ -125,7 +125,6 @@ export async function seedBooks() {
   // await insertBook(haggaiStoryDivision);
   // await insertBook(zechariahStoryDivision);
   // await insertBook(malachiStoryDivision);
-
   // New Testament
   //await insertBook(matthewBookContent);
   // await insertBook(markStoryDivision);
