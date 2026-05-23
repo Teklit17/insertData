@@ -93,7 +93,7 @@ export async function seedBooks() {
   // await insertBook(deuteronomyStoryDivision);
   // await insertBook(joshuaStoryDivision);
   // await insertBook(judgesStoryDivision);
-  // await insertBook(ruthStoryDivision);
+  await insertBook(ruthStoryDivision);
   // await insertBook(firstSamuelStoryDivision);
   // await insertBook(secondSamuelStoryDivision);
   // await insertBook(firstKingsStoryDivision);
